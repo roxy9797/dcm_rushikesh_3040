@@ -23,5 +23,4 @@ jobs:
         echo $PASS
         docker build . --file Dockerfile --tag rushikesh424/dcm_webserver:latest
         docker login -u $USER -p $PASS
-        
         docker push rushikesh424/dcm_webserver:latest
